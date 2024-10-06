@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cursos.css">
+    <title>Plataforma de Cursos - Descrição do Curso</title>
+</head>
+
+<body>
+    <header>
+        <h1>Plataforma de Cursos</h1>
+    </header>
+
+    <div class="layout">
+        <nav class="sidebar">
+            <section>
+                <div id="logo"></div>
+                <h3>Olá, Usuário</h3>
+            </section>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Meus Cursos</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </nav>
+
+        <main class="workspace" style="background-color: rgba(0, 0, 0, 0.66);">
+            <h2>Nome do Curso</h2>
+            <img src="../image/php.jpg" alt="Imagem do Curso" style="max-width: 80%; height: 20%;">
+            <h3>Nome do Professor</h3>
+
+            <section style="display: flex; margin-top: 20px;">
+                <div style="flex: 0 0 70%; padding: 10px;">
+                    <h4>Descrição do Curso</h4>
+                    <p>
+                        O curso de PHP Fullstack foi desenvolvido para quem deseja dominar tanto o front-end quanto o back-end no desenvolvimento web utilizando PHP. Você aprenderá a criar aplicações web completas, desde a interface do usuário até a lógica de negócios e banco de dados.
+                    </p>
+                    <p>
+                        No front-end, o curso cobre HTML, CSS, e JavaScript, capacitando você a criar interfaces dinâmicas e responsivas. No back-end, você trabalhará com PHP, integrando banco de dados MySQL, sessões, autenticação de usuários e criação de APIs RESTful. Além disso, exploraremos frameworks como Laravel para otimizar seu fluxo de trabalho.
+                    </p>
+                    <p>
+                        Ao final do curso, você estará preparado para desenvolver aplicações fullstack robustas, escaláveis e seguras, atuando como desenvolvedor completo e pronto para o mercado.
+                    </p>
+                </div>
+                <div style="flex: 0 0 30%; padding: 10px;">
+                    <h4>Valor</h4>
+                    <p>R$ 599,00</p>
+                    <button onclick="comprarCurso()">Comprar</button>
+                </div>
+            </section>
+            
+        </main>
+    </div>
+
+    <script>
+        function comprarCurso() {
+            alert("Curso adicionado ao carrinho!");
+            // Aqui você pode adicionar a lógica para redirecionar ou adicionar ao carrinho
+        }
+    </script>
+</body>
+
+</html>

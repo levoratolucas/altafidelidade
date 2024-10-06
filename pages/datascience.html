@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cursos.css">
+    <title>Plataforma de Cursos - Descrição do Curso</title>
+</head>
+
+<body>
+    <header>
+        <h1>Plataforma de Cursos</h1>
+    </header>
+
+    <div class="layout">
+        <nav class="sidebar">
+            <section>
+                <div id="logo"></div>
+                <h3>Olá, Usuário</h3>
+            </section>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Meus Cursos</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </nav>
+
+        <main class="workspace" style="background-color: rgba(0, 0, 0, 0.66);">
+            <h2>Nome do Curso</h2>
+            <img src="../image/data science.jpeg" alt="Imagem do Curso" style="max-width: 80%; height: 20%;">
+            <h3>Nome do Professor</h3>
+
+            <section style="display: flex; margin-top: 20px;">
+                <div style="flex: 0 0 70%; padding: 10px;">
+                    <h4>Descrição do Curso</h4>
+                    <p>
+                        O curso de Data Science é voltado para profissionais que desejam se aprofundar nas técnicas de análise de dados e aprendizado de máquina. Neste curso, você aprenderá a coletar, limpar e analisar dados, utilizando ferramentas e linguagens como Python, R e SQL.
+                    </p>
+                    <p>
+                        Abordaremos conceitos fundamentais de estatística, visualização de dados e algoritmos de aprendizado de máquina, capacitando você a construir modelos preditivos e interpretar os resultados de forma eficaz. Além disso, exploraremos o uso de bibliotecas como Pandas, NumPy, Matplotlib e Scikit-learn.
+                    </p>
+                    <p>
+                        Ao final do curso, você estará preparado para enfrentar desafios do mundo real em ciência de dados, desenvolver insights valiosos a partir de dados complexos e contribuir significativamente para a tomada de decisões nas organizações.
+                    </p>
+                </div>
+                <div style="flex: 0 0 30%; padding: 10px;">
+                    <h4>Valor</h4>
+                    <p>R$ 499,00</p>
+                    <button onclick="comprarCurso()">Comprar</button>
+                </div>
+            </section>
+            
+        </main>
+    </div>
+
+    <script>
+        function comprarCurso() {
+            alert("Curso adicionado ao carrinho!");
+            // Aqui você pode adicionar a lógica para redirecionar ou adicionar ao carrinho
+        }
+    </script>
+</body>
+
+</html>
