@@ -14,7 +14,7 @@
             background-size: cover;
             background-position: center;
             min-height: 100vh;
-            /* color: white; */
+            
         }
 
         header {
@@ -202,17 +202,77 @@
         }
         
         .course-horizontal-card img {
-            width: 150px; /* Largura fixa para as imagens */
+            width: 150px; 
             height: auto;
             border-radius: 8px;
             margin-right: 15px;
         }
         
         .course-details {
-            flex: 1; /* Permite que o conteúdo centralize seu espaço */
+            flex: 1; 
         }
         
         .course-meta {
-            text-align: right; /* Alinha os metadados à direita */
+            text-align: right; 
+        }
+        .course-horizontal-cart {
+            background-color: rgba(255, 255, 255, 0.9); 
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 90%; 
+        }
+        
+        .course-horizontal-cart h2 {
+            font-size: 20px;
+            color: #333; 
+            margin-bottom: 15px; 
+        }
+        
+        .course-horizontal-cart ul {
+            list-style-type: none; 
+            padding-left: 0; 
+            margin-bottom: 15px; 
+        }
+        
+        .course-horizontal-cart li {
+            padding: 10px; 
+            border-bottom: 1px solid #ddd; 
+            color: #555; 
+        }
+        
+        .course-horizontal-cart li:last-child {
+            border-bottom: none; 
+        }
+        
+        .course-horizontal-cart textarea {
+            width: 100%; 
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+            padding: 10px; 
+            margin-bottom: 15px; 
+            resize: none; 
+        }
+        
+        .course-horizontal-cart select {
+            width: 100%; 
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+            padding: 10px; 
+            margin-bottom: 15px; 
+        }
+        
+        #finalizar-compra {
+            background-color: #4CAF50; 
+            color: white; 
+            padding: 10px 15px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            transition: background-color 0.3s; 
+        }
+        
+        #finalizar-compra:hover {
+            background-color: #45a049; 
         }
         
